@@ -1,0 +1,48 @@
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 20px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 150px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 50px;
+}
+.signin{
+  background-color: red;
+  width: 5vw;
+  height: 5vh;
+  border-radius: 10%;
+  font-weight: 500;
+  color: aliceblue;
+  font-size: large;
+}
